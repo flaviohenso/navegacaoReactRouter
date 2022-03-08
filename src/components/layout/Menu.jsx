@@ -13,6 +13,12 @@ const Menu = props => (
                     <li>
                         <Link to='/about'>Sobre</Link>
                     </li>
+                    <li>
+                        <Link to='/param/123'>#01</Link>
+                    </li>
+                    <li>
+                        <Link to='/param'>#02</Link>
+                    </li>
                 </ul>
             </nav>
 
