@@ -11,9 +11,9 @@ import NotFound from '../../views/examples/NotFound'
 const Content = props => (
     <main className="Content">
         <Routes>
-            <Route path="/" caseSensitive={false} element={<Home />}/>
-            <Route path="/about" caseSensitive={false} element={<About />}/>
-            <Route path="/param/:id" caseSensitive={false} element={<Param />}/>
+            <Route exact path="/" caseSensitive={false} element={<Home />}/>
+            <Route exact path="/about" caseSensitive={false} element={<About />}/>
+            <Route exact path="/param/:id" caseSensitive={false} element={<Param />}/>
             <Route path="*" caseSensitive={false} element={<NotFound />}/>
         </Routes>
     
