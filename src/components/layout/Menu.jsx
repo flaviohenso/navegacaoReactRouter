@@ -5,9 +5,17 @@ import Home from '../../views/examples/Home'
 
 const Menu = props => (
     <aside className="Menu">
-        Componente Menu
-        <Home/>
-        <About/>
+        <nav>
+            <ul>
+                <li>
+                    <a href='/'>Home</a>
+                </li>
+                <li>
+                    <a href='/'>Sobre</a>
+                </li>
+            </ul>
+        </nav>
+        
     </aside>
     
 )
